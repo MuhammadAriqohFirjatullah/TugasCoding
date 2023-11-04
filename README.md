@@ -1,5 +1,5 @@
 # TugasCoding
-# Muhammad Ariqoh Firjatullah.Coding
+# Muhammad Ariqoh Firjatullah (G1A023033).Coding
 # Tugas 1
 Kode di atas adalah program Java sederhana yang mencetak angka dari 1 hingga 100 ke layar. Pada setiap iterasi perulangan `for`, program melakukan pemeriksaan kondisi dengan menggunakan pernyataan `if`. Jika nilai `i` (angka iterasi saat ini) kurang dari atau sama dengan 9, maka program akan mencetak angka itu sendiri. Namun, jika `i` lebih besar dari 9, maka program akan mencetak teks "Herlita" sebagai gantinya. Oleh karena itu, program ini akan mencetak angka dari 1 hingga 9, dan kemudian mencetak "Herlita" dari 10 hingga 100.
 # Penjelasan Tugas
