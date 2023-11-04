@@ -18,7 +18,6 @@ Kode di atas adalah program Java sederhana yang mencetak angka dari 1 hingga 100
 public class tugas2{
     public static void  main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
         int angka;
         
 Scanner sc = new Scanner(System.in); digunakan untuk membaca masukan dari pengguna yang diketikkan melalui keyboard int angka; Ini adalah deklarasi variabel angka yang akan digunakan untuk membaca angka-angka yang dimasukkan oleh pengguna 
@@ -42,11 +41,8 @@ while (true) {: Ini adalah awal dari loop while yang akan terus berjalan selama 
         scanner.close();
     }
 }
-
 if (angka == 0) {: Ini adalah pernyataan kondisional if yang memeriksa apakah nilai angka yang dimasukkan oleh pengguna sama dengan 0. break digunakan untuk keluar dari loop while yang berjalan tanpa henti. Ini akan menghentikan eksekusi loop dan memungkinkan program melanjutkan ke pernyataan di luar loop. else {: Jika nilai angka tidak sama dengan 0 (kondisi if tidak terpenuhi), maka program akan masuk ke blok else.
-
 # Outputnya
-
 Masukkan sebuah angka (0 untuk berhenti) : 3
 Angka yang dimasukkan adalah angka ganjil. 
 Masukkan sebuah angka (0 untuk berhenti) : 10
@@ -56,7 +52,6 @@ Angka yang dimasukkan adalah angka ganjil.
 Masukkan sebuah angka (0 untuk berhenti) : 67
 Angka yang dimasukkan adalah angka ganjil.
 Masukkan sebuah angka (0 untuk berhenti) :
-
 ## Tugas 3
 import java.util.Scanner;
 
@@ -113,10 +108,8 @@ public class tugas3 {
         System.out.println("Zodiak Anda adalah: " + zodiak);
     }
 }
-
 # penjelasan
 import java.util.Scanner;adalah pernyataan impor (import statement) dalam bahasa pemrograman Java. Fungsi dari pernyataan ini adalah untuk mengimpor kelas Scanner dari pustaka standar Java yang disebut java.util.
-
  System.out.print("Tanggal : ");
         int tanggal = sc.nextInt();
         System.out.print("Bulan : ");
@@ -137,14 +130,11 @@ String zodiak = "";
         }
         else if ((bulan == 6 && tanggal >= 21) || (bulan == 7 && tanggal <= 22)) {
             zodiak = "CANCER";
-
 serangkaian pernyataan if-else yang digunakan untuk menentukan tanda zodiak berdasarkan tanggal dan bulan yang dimasukkan oleh pengguna. Setiap blok if dan else if memeriksa apakah tanggal dan bulan cocok dengan rentang tertentu untuk tanda zodiak tertentu. Jika cocok, variabel zodiak akan diisi dengan nama tanda zodiak yang sesuai.
-
 # Outputnya
 Tanggal : 05
 Bulan : 06
 Zodiak Anda adalah: GEMINI
-
 ## Tugas 4
 public class tugas4 {
     public static void main(String[] args) {
@@ -156,10 +146,8 @@ public class tugas4 {
         }
     }
 }
-
 # penjelasan
 String[] TempatWisataTujuansaya = { "Bali", "Bandung", "Jepang", "Korea Selatan"};: Di sini, sebuah array string dengan nama "TempatWisataTujuansaya" or (int i = 0; i < TempatWisataTujuansaya.length; i++) {: Ini adalah loop for yang digunakan untuk mengulanginya sebanyak TempatWisataTujuansaya.length kali. TempatWisataTujuansaya.length adalah panjang dari array "TempatWisataTujuansaya", yang dalam hal ini adalah 4. Oleh karena itu, loop akan berjalan empat kali
-
 # Outputnya
 Bali
 Bandung      
